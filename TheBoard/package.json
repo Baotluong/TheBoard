@@ -1,0 +1,13 @@
+{
+  "name": "the-board",
+  "version": "0.1.0",
+  "description": "TheBoard",
+  "main": "server.js",
+  "author": {
+    "name": "Bao the Wow"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "underscore": "^1.9.1"
+  }
+}
