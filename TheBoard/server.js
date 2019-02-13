@@ -7,6 +7,8 @@ var controllers = require('./controllers');
 
 app.set('view engine', 'vash');
 
+app.use(express.static(__dirname + "/public"));
+
 controllers.init(app);
 
 http.createServer(app).listen(port);
